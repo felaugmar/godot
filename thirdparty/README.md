@@ -477,6 +477,17 @@ Files extracted from upstream source:
 - License.txt
 
 
+## sqlite-amalgamation
+
+- Upstream: https://www.sqlite.org/download.html
+- Version: 3.35.5 (sha3: 8175cba8e28c2274aa6f8305076116622a4ecb7829673b92290dc047fba9bba6, 2021)
+- License: Public Domain
+
+Files extracted from upstream source:
+
+- all `.h` and `.c`
+
+
 ## squish
 
 - Upstream: https://sourceforge.net/projects/libsquish
