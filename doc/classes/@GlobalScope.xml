@@ -77,6 +77,9 @@
 		<member name="ResourceSaver" type="ResourceSaver" setter="" getter="">
 			The [ResourceSaver] singleton.
 		</member>
+		<member name="SQLite" type="SQLite" setter="" getter="">
+			the [SQLite] singleton.
+		</member>
 		<member name="TranslationServer" type="TranslationServer" setter="" getter="">
 			The [TranslationServer] singleton.
 		</member>

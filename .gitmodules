@@ -1,0 +1,3 @@
+[submodule "modules/gd_sqlite"]
+	path = modules/gd_sqlite
+	url = https://github.com/felaugmar/gd-sqlite
