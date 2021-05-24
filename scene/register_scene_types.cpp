@@ -77,6 +77,7 @@
 #include "scene/audio/audio_stream_player.h"
 #include "scene/gui/aspect_ratio_container.h"
 #include "scene/gui/box_container.h"
+#include "scene/gui/animated_box_container.h"
 #include "scene/gui/button.h"
 #include "scene/gui/center_container.h"
 #include "scene/gui/check_box.h"
@@ -315,6 +316,9 @@ void register_scene_types() {
 	ClassDB::register_virtual_class<BoxContainer>();
 	ClassDB::register_class<HBoxContainer>();
 	ClassDB::register_class<VBoxContainer>();
+	ClassDB::register_virtual_class<AnimatedBoxContainer>();
+	ClassDB::register_class<AnimatedHBoxContainer>();
+	ClassDB::register_class<AnimatedVBoxContainer>();
 	ClassDB::register_class<GridContainer>();
 	ClassDB::register_class<CenterContainer>();
 	ClassDB::register_class<ScrollContainer>();
